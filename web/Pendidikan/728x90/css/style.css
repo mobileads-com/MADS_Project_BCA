@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+#bisnis {
+    width: 728px;
+    height: 90px;
+    position: relative;
+}
+
+#bisnis img {
+    width: 728px;
+    height: 90px;
+}
+
+#bisnis #bisnis-usd-rate {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    font-size: 12.5pt;
+    font-family: calibri;
+}
