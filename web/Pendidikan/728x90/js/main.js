@@ -181,6 +181,7 @@ bisnis.prototype.render = function () {
     })
     
     document.getElementById('bisnis').addEventListener('click', function () {
+        _this.app.tracker('CTR', 'site');
         _this.app.linkOpener('http://bca.co.id/id/kurs-sukubunga/kurs_counter_bca/kurs_counter_bca_landing.jsp');
     });
 }
