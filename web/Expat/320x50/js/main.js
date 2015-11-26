@@ -71,6 +71,11 @@ mads.prototype.tracker = function (tt, type, name, value) {
                 value = '';
             }
             
+            if (type == '{2}') {
+                type = 'site';
+                src += '&value=1'
+            }
+            
             /* Insert Macro */
             var src = this.custTracker[i].replace('{{type}}', type);
             src = src.replace('{{tt}}', tt);
